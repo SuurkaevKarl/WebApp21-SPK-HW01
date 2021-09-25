@@ -74,7 +74,12 @@ section div.content-container{
     margin-top: 20px;
     margin-left: 40px;
     margin-right: 40px;
-    border-radius: 4px;
+    border-radius: 8px;
+}
+
+.timestamp{
+    float: right;
+    margin: 15px;
 }
 
 
@@ -84,10 +89,13 @@ section div.content-container{
     margin: 5px;
 }
 
+<<<<<<< HEAD
 .timestamp{
     align-items: center;
 }
 
+=======
+>>>>>>> 60c5590f5eb55e5c68a36554b938c5f856109710
 .caption{
     margin: 5px;
 }
