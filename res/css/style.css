@@ -37,3 +37,16 @@ cursor: pointer;
 background-color: #595981;
 border-radius: 8px;
 }
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 80%;
+margin: 30px auto;
+}
+section div.content-container{
+flex-grow: 10;
+background-color: #FFFFFF;
+display: block;
+}
