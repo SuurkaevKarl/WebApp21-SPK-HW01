@@ -11,6 +11,7 @@ div.login-container {
     margin-right: auto;
     width: 20%;
     height: 200px;
+    border-radius: 8px;
 }
 
 input {

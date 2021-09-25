@@ -99,3 +99,7 @@ section div.content-container{
     display: block;
     max-width: 500px;
 }
+
+footer {
+    text-align: center;
+}
