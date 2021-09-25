@@ -18,13 +18,8 @@ input {
     width: 200px;
 }
 
-<<<<<<<
-HEAD:login_css.css
 h1 {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-=======
->>> >>> > a7ff2d3b845de76db0be1a8d0d360b32fe1e5af2:res /css/ login_css.css

@@ -84,10 +84,19 @@ button:hover{
 
 .caption{
     margin: 5px;
+    font-weight: normal;
+}
+
+.content-img ~ .caption {
+    font-weight: bold;
 }
 
 .like{
     margin: 5px;
+}
+
+br + button{
+    background-color:#8cdae7;
 }
 
 .content-img{
