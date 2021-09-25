@@ -1,4 +1,5 @@
 //stuff
-/*
-test
- */
+
+function redirect() {
+    window.location.href = "index.html";
+}
