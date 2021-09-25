@@ -24,7 +24,7 @@ nav div img {
     height: 100%;
 }
 
-nav div.search-container > input {
+#searchbox {
     box-sizing: border-box;
     position: absolute;
     left: 40%;
@@ -47,17 +47,6 @@ nav div.search-container > button {
     cursor: pointer;
     background-color: #595981;
     border-radius: 8px;
-    box-sizing: border-box;
-    position: absolute;
-    left: 60%;
-    height: 30px;
-    width: 5%;
-    margin: 0px;
-    padding: 5px;
-    border: 1px solid #000000;
-    cursor: pointer;
-    background-color: #595981;
-    border-radius: 8px;
 }
 
 section {
@@ -77,11 +66,15 @@ section div.content-container{
     border-radius: 8px;
 }
 
+button:hover{
+    background-color: #00008b;
+    color: yellow;
+}
+
 .timestamp{
     float: right;
     margin: 15px;
 }
-
 
 .prof-icon{
     width: 40px;
@@ -89,13 +82,6 @@ section div.content-container{
     margin: 5px;
 }
 
-<<<<<<< HEAD
-.timestamp{
-    align-items: center;
-}
-
-=======
->>>>>>> 60c5590f5eb55e5c68a36554b938c5f856109710
 .caption{
     margin: 5px;
 }
