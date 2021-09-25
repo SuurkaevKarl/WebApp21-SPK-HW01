@@ -74,17 +74,18 @@ section div.content-container{
     margin-top: 20px;
     margin-left: 40px;
     margin-right: 40px;
-    border-radius: 4px;
+    border-radius: 8px;
+}
+
+.timestamp{
+    float: right;
+    margin: 15px;
 }
 
 .prof-icon{
     width: 40px;
     height: 40px;
     margin: 5px;
-}
-
-.timestamp{
-    align-items: end;
 }
 
 .caption{
