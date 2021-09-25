@@ -1,39 +1,50 @@
 html, body {
-margin: 0;
-padding: 0;
-background-color: #00008b;
+    margin: 0;
+    padding: 0;
+    background-color: #00008b;
 }
 
+
 nav {
-display: flex;
-background-color: #ffffff;
-align-items: center;
+    display: flex;
+    background-color: #ADD8E6;
+    align-items: center;
+    position: fixed;
+    top : 0;
+    width: 100%;
+    z-index: 1000;
 }
 nav div{
-height: 30px;
-flex-grow: 4;
-padding: 10px;
+    height: 30px;
+    flex-grow: 4;
+    padding: 10px;
+
 }
+nav div img {
+    height: 100%;
+}
+
 nav div.search-container > input {
-box-sizing: border-box;
-position: absolute;
-left: 40%;
-height: 30px;
-width: 20%;
-margin: 0px;
-padding: 5px;
-border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    position: absolute;
+    left: 40%;
+    height: 30px;
+    width: 20%;
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
 }
+
 nav div.search-container > button {
-box-sizing: border-box;
-position: absolute;
-left: 60%;
-height: 30px;
-width: 5%;
-margin: 0px;
-padding: 5px;
-border: 1px solid #000000;
-cursor: pointer;
-background-color: #595981;
-border-radius: 8px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 60%;
+    height: 30px;
+    width: 5%;
+    margin: 0px;
+    padding: 5px;
+    border: 3px solid #000000;
+    cursor: pointer;
+    background-color: #595981;
+    border-radius: 8px;
 }
