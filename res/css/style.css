@@ -36,7 +36,6 @@ nav div.search-container > input {
 }
 
 nav div.search-container > button {
-<<<<<<< HEAD
     box-sizing: border-box;
     position: absolute;
     left: 60%;
@@ -48,30 +47,55 @@ nav div.search-container > button {
     cursor: pointer;
     background-color: #595981;
     border-radius: 8px;
-=======
-box-sizing: border-box;
-position: absolute;
-left: 60%;
-height: 30px;
-width: 5%;
-margin: 0px;
-padding: 5px;
-border: 1px solid #000000;
-cursor: pointer;
-background-color: #595981;
-border-radius: 8px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 60%;
+    height: 30px;
+    width: 5%;
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    background-color: #595981;
+    border-radius: 8px;
 }
 
 section {
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 80%;
-margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
 }
 section div.content-container{
-flex-grow: 10;
-background-color: #FFFFFF;
-display: block;
->>>>>>> 5937d71a3c53d2bb892ab4df412d98c49e1cdd8d
+    flex-grow: 10;
+    background-color: #FFFFFF;
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 4px;
+}
+
+.prof-icon{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.timestamp{
+    align-items: end;
+}
+
+.caption{
+    margin: 5px;
+}
+
+.like{
+    margin: 5px;
+}
+
+.content-img{
+    display: block;
+    max-width: 500px;
 }
