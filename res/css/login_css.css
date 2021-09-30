@@ -5,12 +5,14 @@ body {
 div.login-container {
     background-color: #FFFFFF;
     text-align: center;
-    position: relative;
+    position: absolute;
+    left: 40%;
+    top: 35%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-    height: 200px;
+    height: 220px;
     border-radius: 8px;
 }
 
