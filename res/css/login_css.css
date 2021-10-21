@@ -12,6 +12,7 @@ div.login-container {
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    min-width: 250px;
     height: 220px;
     border-radius: 8px;
 }
@@ -20,15 +21,9 @@ input {
     width: 200px;
 }
 
-/*some garbled mess from merge failure, but it works??*/
-<<<<<<<
 HEAD:login_css.css
 h1 {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-=======
-> >>> > a7ff2d3b845de76db0be1a8d0d360b32fe1e5af2:res /css/ login_css.css
-> 
