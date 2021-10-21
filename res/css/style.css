@@ -101,7 +101,7 @@ br + button{
 
 .content-img{
     display: block;
-    max-width: 500px;
+    width: 500px;
 }
 
 footer {
