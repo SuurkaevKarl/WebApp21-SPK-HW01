@@ -111,6 +111,7 @@ br + button{
 }
 
 footer {
+    position: fixed;
     text-align: center;
 }
 
