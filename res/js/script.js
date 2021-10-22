@@ -5,29 +5,35 @@ function redirect() {
 }
 
 $(function() {
-     $.get("https://api.jsonbin.io/b/617154ed9548541c29c6664c", function(posts) {
+     $.get("https://api.jsonbin.io/b/6172bb1baa02be1d445d36f5", function(posts) {
          let section = $('<section>');
         for (post of posts) {
 
             let div = $('<div class= "content-container">');
+
+            let a = $('<a class="tooltip">');
+            
             let profilePic = $('<img class="prof-icon">').attr("src", "res/images/profile_icon_blank.png");
+            
+            let popup = $('<span>').text("Username: " + post.username + "\nEmail: " + post.email);
+            
+            
             let timestamp = $('<span class="timestamp">').text(post.timestamp);
-            let caption = $('<span class="caption">').text(post.caption);
-            let a = $('<a href="https://i.imgur.com">');
-
+            
+            
             let picture = $('<img class="content-img">').attr("src", post.content);//.attr("width", "150").attr("height", "70");
+            
+            let caption = $('<span class="caption">').text(post.caption);
+            let button = $('<button class="like">').text("like");
 
-            //let a = $('<a href="https://icatcare.org">');
+            a.append(profilePic);
+            a.append(popup);
 
-            //let picture = $('<img class="content-img">').attr("src", "https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png").attr("width", "150").attr("height", "70");//post.content);
-
-            div.append(profilePic);
-            div.append(timestamp);
-
-            a.append(picture);
             div.append(a);
-
+            div.append(timestamp);
             div.append(caption);
+            div.append(picture);
+            div.append(button);
 
             section.append(div);
             
