@@ -66,15 +66,10 @@ section div.content-container{
     border-radius: 8px;
 }
 
-span.caption {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: large;
-}
-
 button:hover{
     background-color: #00008b;
     color: yellow;
+    border-radius: 8px;
 }
 
 .timestamp{
@@ -91,6 +86,7 @@ button:hover{
 .caption{
     margin: 5px;
     font-weight: normal;
+    font-size: large;
 }
 
 .content-img ~ .caption {
@@ -99,6 +95,8 @@ button:hover{
 
 .like{
     margin: 5px;
+    border-radius: 8px;
+    display: block;
 }
 
 br + button{

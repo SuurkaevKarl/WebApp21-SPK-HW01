@@ -24,15 +24,16 @@ $(function() {
             let picture = $('<img class="content-img">').attr("src", post.content);//.attr("width", "150").attr("height", "70");
             
             let caption = $('<span class="caption">').text(post.caption);
-            let button = $('<button class="like">').text("like");
+            let button = $('<button class="like">').text("Like");
 
             a.append(profilePic);
             a.append(popup);
 
             div.append(a);
             div.append(timestamp);
-            div.append(caption);
             div.append(picture);
+            div.append(caption);
+
             div.append(button);
 
             section.append(div);
