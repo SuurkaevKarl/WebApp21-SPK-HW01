@@ -17,13 +17,17 @@ $(function() {
             
             let profilePic = $('<img class="prof-icon">').attr("src", "res/images/profile_icon_blank.png");
             
-            let popup = $('<span>').text("Username: " + post.username + "\nEmail: " + post.email);
-            
+            let popup = $('<span>');
+            let username = $('<p>').text("Username: " + post.username);
+            let useremail = $('<p>').text("Email: " + post.email);
+
+            popup.append(username);
+            popup.append(useremail);
             
             let timestamp = $('<span class="timestamp">').text(post.timestamp);
             
             
-            let picture = $('<img class="content-img">').attr("src", post.content);//.attr("width", "150").attr("height", "70");
+            let picture = $('<img class="content-img">').attr("id", "profile-pic1").attr("src", post.content);//.attr("width", "150").attr("height", "70");
             
             let caption = $('<span class="caption">').text(post.caption);
             let button = $('<button class="like">').text("Like");
@@ -46,5 +50,5 @@ $(function() {
 });
 $(document).ready(function(){
     $('#profile-pic').click(function() {
-        $('.userinfo').toggle("slide")});
+        $('.userinfo').toggle("")});
 });
