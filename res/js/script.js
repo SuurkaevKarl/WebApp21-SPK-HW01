@@ -5,7 +5,8 @@ function redirect() {
 }
 
 $(function() {
-     $.get("https://api.jsonbin.io/b/6172bb1baa02be1d445d36f5", function(posts) {
+     $.get("res/json/posts.json", function(posts) {
+         // https://api.jsonbin.io/b/61740fb59548541c29c766b3
          let section = $('<section>');
         for (post of posts) {
 
