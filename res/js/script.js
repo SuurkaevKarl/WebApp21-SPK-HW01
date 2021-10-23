@@ -1,4 +1,4 @@
-//stuff
+
 
 function redirect() {
     window.location.href = "index.html";
@@ -6,6 +6,8 @@ function redirect() {
 
 $(function() {
      $.get("res/json/posts.json", function(posts) {
+         // https://api.jsonbin.io/b/61740fb59548541c29c766b3
+
          let section = $('<section>');
         for (post of posts) {
 
