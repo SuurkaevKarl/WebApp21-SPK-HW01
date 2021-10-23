@@ -5,7 +5,7 @@ function redirect() {
 }
 
 $(function() {
-     $.get("https://api.jsonbin.io/b/6172bb1baa02be1d445d36f5", function(posts) {
+     $.get("res/json/posts.json", function(posts) {
          let section = $('<section>');
         for (post of posts) {
 
@@ -41,4 +41,8 @@ $(function() {
         }
         $('body').append(section);
     })
-}); 
+});
+$(document).ready(function(){
+    $('#profile-pic').click(function() {
+        $('.userinfo').toggle("slide")});
+});
