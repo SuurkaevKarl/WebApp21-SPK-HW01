@@ -41,6 +41,7 @@ nav div.search-container > button {
     left: 60%;
     height: 15px;
     width: 5%;
+    min-width: 50px;
     margin: 0px;
     padding: 5px;
     border: 3px solid #000000;
@@ -147,16 +148,20 @@ footer {
     overflow:hidden;
     padding:8px;
 }
-.user{
+
+.user {
     position: absolute;
     right: -30px;
     top: -10px;
     width: 100px;
     height: 50px;
 }
-.userinfo{
+
+.userinfo {
+    position: relative;
+    float: right;
+    right: 50px;
     inline-size: fit-content;
     background-color: #e0e0e0;
-    right:-100px;
     display: none;
 }
