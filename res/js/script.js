@@ -7,6 +7,7 @@ function redirect() {
 $(function() {
      $.get("res/json/posts.json", function(posts) {
          // https://api.jsonbin.io/b/61740fb59548541c29c766b3
+         //res/json/posts.json
 
          let section = $('<section>');
         for (post of posts) {
@@ -17,7 +18,7 @@ $(function() {
             
             let profilePic = $('<img class="prof-icon">').attr("src", "res/images/profile_icon_blank.png");
             
-            let popup = $('<span>');
+            let popup = $('<span>');//.text("Username: " + post.username + "Email: " + post.email);
             let username = $('<p>').text("Username: " + post.username);
             let useremail = $('<p>').text("Email: " + post.email);
 
